@@ -1,2 +1,7 @@
 # PixelPros
-hackathon grp project 
+hackathon grp project :
+....
+Websites and web apps are made using computer languages like HTML, CSS, and JavaScript.The information is organised using HTML, the visual look is determined using CSS, and the functionality is added using JavaScript. For online designers and developers to build cutting-edge and captivating web experiences, these three languages are vital resources.
+A high-level Python web framework called Django makes it possible for programmers to create web applications rapidly and effectively. The server-side logic, URL routing, and database administration are all handled by built-in features that follow the Model-View-Controller (MVC) design paradigm.The advantages of Django include its adaptability, scalability, security, and maintainability.It is frequently employed in the creation of social networks, e-commerce websites, content management systems, and data-driven online applications.
+MySQL is a relational database management system that is free and open-source that can be used to store and retrieve structured data, making it perfect for online applications that need data management. It supports several programming languages and web standards, and it is quick, dependable, scalable, and simple to use.frameworks. Online gaming platforms, social networking websites, content management systems, and e-commerce websites all often employ MySQL. Moreover, it offers attributes like transaction management, high availability, and security, and it gains from a sizable and vibrant user and development community![image](https://user-images.githubusercontent.com/111099133/227857121-b2c4ebd4-23c0-4224-9e58-61043ff419f3.png)
+
