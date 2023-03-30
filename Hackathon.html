@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .navbar{
+            background-color: black;
+            border-radius: 4px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: right;
+            list-style: none ;
+            margin: 10px 20px;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none ;
+            color: white;
+        }
+        .navbar li a:hover{
+           color: rgb(175, 175, 218);
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 10px 20px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 5px ;
+            padding: 4px 66px;
+            width: 50px;
+        }
+        .dropbtn{
+            background-color: aqua;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+            float: right;
+
+        }
+        .dc{
+            display: none;
+            position: absolute;
+            background-color: cyan;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px cyan;
+        }
+        .dc a{
+            color: red;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: flex;
+        }
+        .dc a:hover{
+            background-color: #ddd;
+        }
+        .dropdown:hover .dc{
+            display: block;
+        }
+        .dropdown:hover .dropbtn{
+            background-color: #3e8e41;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <ul>
+         <!-- <li><a href="#">Home</a><li>  -->
+            <!-- <li><a href="#">User</a></li> -->
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><img src="search.png"></li>
+            <div class="search">
+              <input type="text" name="search" id="search" placeholder="Search">
+
+            
+            </div>
+            
+            
+            
+        </ul>
+        <div class="dropdown">
+            <button class="dropbtn">User</button>
+            <div class="dc">
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+            <a href="#">Logout</a>
+        </div>
+        
+        
+        
+    </nav>
+
+       
+
+
+
+    </div>
+    </header>
+</body>
+</html>
