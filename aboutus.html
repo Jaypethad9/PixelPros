@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Navigation</title>
+    <style>
+         .navbar{
+            background-color: black;
+            border-radius: 4px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: right;
+            list-style: none ;
+            margin: 10px 20px;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none ;
+            color: white;
+        }
+        .navbar li a:hover{
+           color: rgb(175, 175, 218);
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 10px 20px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 5px ;
+            padding: 4px 66px;
+            width: 50px;
+        }
+        .dropbtn{
+            background-color: aqua;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+            float: right;
+
+        }
+        .dc{
+            display: none;
+            position: absolute;
+            background-color: cyan;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px cyan;
+        }
+        .dc a{
+            color: red;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: flex;
+        }
+        .dc a:hover{
+            background-color: #ddd;
+        }
+        .dropdown:hover .dc{
+            display: block;
+        }
+        .dropdown:hover .dropbtn{
+            background-color: #3e8e41;
+        }
+
+        .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+        .button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+    </style>
+</head>
+<body>
+    
+    <header> 
+        
+        <nav class="navbar">
+            
+        
+        
+        <ul>
+     
+        
+        <li><a href="#">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><img src="search.png"></li>
+            <div class="search">
+              <input type="text" name="search" id="search" placeholder="Search">
+
+            
+            </div>
+            <li><a href="hackathon.html">Home</a></li>
+            
+            
+            
+        </ul>
+        </nav>
+        
+    </header>
+       <h7>
+        This is about our coders who helped us to create the web application 
+        <br></h7>
+        <button type="button button1">1.Kundan Dolas</button><br>
+        <button type="button button1">2.Jay Pethad</button><br>
+        <button type="button button1">3.Aditya Malusure</button><br>
+        <button type="button button1">4.Ashok</button><br>
+        <button type="button button1">5.shriyash</button><br>
+        <button type="button button1">6.Dhiriti </button><br>
+        <a href='https://github.com/Jaypethad9/PixelPros'>
+        <button type="button button1">Github! </button><br>
+
+
+       </h1> 
+    
+</body>
