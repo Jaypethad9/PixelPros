@@ -1,142 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Navigation</title>
     <style>
-         .navbar{
-            background-color: black;
-            border-radius: 4px;
-        }
-        .navbar ul{
-            overflow: auto;
-        }
-        .navbar li{
-            float: right;
-            list-style: none ;
-            margin: 10px 20px;
-        }
-        .navbar li a{
-            padding: 3px 3px;
-            text-decoration: none ;
-            color: white;
-        }
-        .navbar li a:hover{
-           color: rgb(175, 175, 218);
-        }
-        .search{
-            float: right;
-            color: white;
-            padding: 10px 20px;
-        }
-        .navbar input{
-            border: 2px solid black;
-            border-radius: 5px ;
-            padding: 4px 66px;
-            width: 50px;
-        }
-        .dropbtn{
-            background-color: aqua;
-            color: white;
-            padding: 16px;
-            font-size: 16px;
-            border: none;
-        }
-        .dropdown{
-            position: relative;
-            display: inline-block;
-            float: right;
+        .container {
+text-align: center;    
+width: auto;  
+height: auto;  
+padding-top: auto;  
+}  
 
-        }
-        .dc{
-            display: none;
-            position: absolute;
-            background-color: cyan;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px cyan;
-        }
-        .dc a{
-            color: red;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: flex;
-        }
-        .dc a:hover{
-            background-color: #ddd;
-        }
-        .dropdown:hover .dc{
-            display: block;
-        }
-        .dropdown:hover .dropbtn{
-            background-color: #3e8e41;
+        #btn {
+font-size: 25px;  
+}  
+
+        .about {
+            
+            background-image: linear-gradient(to bottom left, #EEBD89, #D13ABD);
+  width: 90%;
+  padding: 70px 30px 62px;
+  border-radius: 22px;
+            text-align: left;
+            padding: 60px;
+            margin: 150px auto;
+   
         }
 
-        .button {
+        @media(width>=450px) {
+            .about {
+                width: 380px;
+}
+        }
+
+ #grad1 {
+  height: 2000PX;
+            width: 1930px;
+            background-color: lightblue;
+            /* For browsers that do not support gradients */
+
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  
+}
+    
+.button {
+  background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 16px 32px;
-  text-align: center;
+  padding: 10px 25px;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  transition-duration: 0.4s;
   cursor: pointer;
 }
+
         .button1 {
   background-color: white;
   color: black;
   border: 2px solid #4CAF50;
 }
+
 .button1:hover {
   background-color: #4CAF50;
-  color: white;
+  color: yellow;
 }
     </style>
 </head>
+
 <body>
     
     <header> 
         
-        <nav class="navbar">
-            
-        
-        
-        <ul>
-     
-        
-        <li><a href="#">Contact Us</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><img src="search.png"></li>
-            <div class="search">
-              <input type="text" name="search" id="search" placeholder="Search">
-
-            
-            </div>
-            <li><a href="hackathon.html">Home</a></li>
-            
-            
-            
-        </ul>
-        </nav>
-        
     </header>
-       <h7>
-        This is about our coders who helped us to create the web application 
-        <br></h7>
-        <button type="button button1">1.Kundan Dolas</button><br>
-        <button type="button button1">2.Jay Pethad</button><br>
-        <button type="button button1">3.Aditya Malusure</button><br>
-        <button type="button button1">4.Ashok</button><br>
-        <button type="button button1">5.shriyash</button><br>
-        <button type="button button1">6.Dhiriti </button><br>
-        <a href='https://github.com/Jaypethad9/PixelPros'>
-        <button type="button button1">Github! </button><br>
+    <div class="container">    
+        <div id="grad1">
+  <div class="image">
+        <img src="about.png">
+        <h1>
+                    <div class="centered">Best Seminars on<br> explosion protection
+                </h1>
+            </div>
+
+        <h1>WHEN IT COMES TO EXPLOSION PROTECTION, YOU ARE IN SAFE HANDS WITH US</h1>
+            <h2>We want to optimally support our customers in the field of explosion protection. Therefore, we offer not
+                only
+                pioneering products and holistic systems but also first-class service. With PEC, we have the perfect
+                solution
+                for the entire management of all inspection tasks for plant safety. The three modules from PEC allow you
+                to carry
+                out all tests in the fields of explosion protection, functional safety, safety and quality. It works
+                paperless and
+             tablet online and offline anywhere in the world</h2><br>
+            <h2> As the market leader in explosion protection, we are happy to pass on our knowledge and experience. For
+                years, our team
+                organizes a comprehensive range of seminars - purposeful, practical and always up to date. In your daily
+                work we continue
+                to support you with knowledge of explosion safety. The R. STAHL knowledge pages give you an overview of
+                the field of explosion
+               protection. Furthermore, our publications serve as a fundamental reference book.</h2>
+               <h2>Panel Technology India Pvt Ltd (PTPL) was established by a group of automation experts with more than 25 years of competence & 
+                experience in the field of process automation & factory automation PTPL is having special focus & expertise in all types of Hazardous 
+                are solutions.
+                The company has signed partnership contract with established manufacturers in different parts of the globe with quality products 
+                in the field of process automation & Interface technology. The major focus of PTPL is presently on Pharma, Oil and gas (Upstream & Downstream),
+                 Petrochemicals, Fertilizers, Chemical industry, Ship building, System Integrators & complete solution providers</h2>
 
 
-       </h1> 
+
+            <div class="about">
+                <h1> HELPERS:</h1>
+
+                <button class="button button1" id="btn">1.Kundan Dolas</button>
+                <br>
+
+                <button class="button button1" id="btn">2.Jay Pethad</button><br>
+
+                <button class="button button1" id="btn">3.Aditya Malusure</button><br>
+
+                <button class="button button1" id="btn">4.Ashok</button><br>
+
+                <button class="button button1" id="btn">5.Shriyash</button><br>
+                <button class="button button1" id="btn">6.Dhriti </button><br>
+                <a href='https://github.com/Jaypethad9/PixelPros' class="button button1" id="btn">Github! </a><br>
+            </div>
+
+    
+        
+</div>
+
+
+      
     
 </body>
